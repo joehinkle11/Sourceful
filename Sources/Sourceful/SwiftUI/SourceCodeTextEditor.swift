@@ -91,6 +91,7 @@ public struct SourceCodeTextEditor: _ViewRepresentable {
     }
     
     public func updateUIView(_ view: SyntaxTextView, context: Context) {
+        view.text = text
     }
     #endif
     
